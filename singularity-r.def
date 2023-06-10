@@ -68,7 +68,7 @@ From: ubuntu:20.04
   R --slave -e 'BiocManager::install("SummarizedExperiment")'
   
   # Clean up
-  rm -rf /var/lib/apt/lists/*
+  #rm -rf /var/lib/apt/lists/*
 
 %test
 
